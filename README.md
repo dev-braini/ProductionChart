@@ -1,6 +1,6 @@
 # ProductionChart
 
-### Features
+#### Features
 
 * `ProductionChart` Dieses Control kann als _**CustomControl**_ verwendet werden.
 * `TextfieldProduction` Dieses Control kann (anstelle von TextField) als _**BusinessControl**_ verwendet werden.
@@ -14,7 +14,7 @@
 * `Shift+Ctrl+Alt` Hält man _Shift_ gedrückt werden 10er, mit _Shit+Ctrl_ 100er und mit _Shift+Ctrl+Alt_ 1000er Schritte gemacht.
 * `Ansicht wechseln` Mit einem Klick auf das Icon oben rechts, wird die Ansicht zwischen _Kreisen_ und _Windrädern_ gewechselt.
 
-### HowTo: Integration CustomControl `ProductionChart`
+## HowTo: Integration CustomControl `ProductionChart`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
 * `Imports anpassen` Am einfachsten via Search&Replace. "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
 * `private ProductionChart cc;` Variable erstellen 
@@ -22,7 +22,7 @@
 * `getChildren().add(cc);` ProductionChart einer View hinzufügen
 * `cc.bind(pm.p15Property(), pm.p16Property(), pm.p17Property(), pm.p18Property());` Binding der Werte anhand der Hilfsfunktion bind()
 
-### HowTo: Integration BusinessControl `TextfieldProduction`
+## HowTo: Integration BusinessControl `TextfieldProduction`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
 * `Imports anpassen` Am einfachsten via Search&Replace. "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
 * `private p15, p16, p17, p18;` Variablen erstellen 
