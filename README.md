@@ -1,5 +1,8 @@
 # ProductionChart
 
+#### Contact
+* markus.winter@students.fhnw.ch
+
 #### Features
 * `ProductionChart` Dieses Control kann als _**CustomControl**_ verwendet werden.
 * `TextfieldProduction` Dieses Control kann (anstelle von TextField) als _**BusinessControl**_ verwendet werden.
