@@ -1,7 +1,9 @@
 # ProductionChart
 
 #### Contact
-* markus.winter@students.fhnw.ch
+* Mail / Webex: **markus.winter@students.fhnw.ch**
+* Teams Code: **ueziu96**
+* Slack: **braini**
 
 #### Features
 * `ProductionChart` Dieses Control kann als _**CustomControl**_ verwendet werden.
