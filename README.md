@@ -16,16 +16,16 @@
 
 ## HowTo: Integration CustomControl `ProductionChart`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
-* `Imports anpassen` Am einfachsten via Search&Replace. "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
+* `Imports anpassen` Search&Replace: "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
 * `private ProductionChart cc;` Variable erstellen 
 * `cc = new ProductionChart();` Variable initialisieren
 * `getChildren().add(cc);` ProductionChart einer View hinzufügen
-* `cc.bind(pm.p15Property(), pm.p16Property(), pm.p17Property(), pm.p18Property());` Binding der Werte anhand der Hilfsfunktion bind()
+* `cc.bind(pm.p15Prop(), pm.p16Prop(), pm.p17Prop(), pm.p18Prop());` Binding der Werte
 
 ## HowTo: Integration BusinessControl `TextfieldProduction`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
-* `Imports anpassen` Am einfachsten via Search&Replace. "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
+* `Imports anpassen` Search&Replace: "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
 * `private p15, p16, p17, p18;` Variablen erstellen 
-* `p15 = new TextfieldProduction(); p16 = new TextfieldProduction(); p17 = new TextfieldProduction(); p18 = new TextfieldProduction();` Variablen initialisieren
+* `p15 = new TextfieldProduction(); p16...p18 = new TextfieldProduction();` Variablen initialisieren
 * `getChildren().addAll(p15, p16, p17, p18);` TextfieldProduction's einer View hinzufügen
-* `bc.bind(p15, p16, p17, p18, pm.p15Property(), pm.p16Property(), pm.p17Property(), pm.p18Property());` Binding der Werte anhand der Hilfsfunktion bind()
+* `bc.bind(p15, p16, p17, p18, pm.p15Prop(), pm.p16Prop(), pm.p17Prop(), pm.p18Prop());` Binding der Werte
