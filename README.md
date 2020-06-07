@@ -1,7 +1,6 @@
 # ProductionChart
 
 #### Features
-
 * `ProductionChart` Dieses Control kann als _**CustomControl**_ verwendet werden.
 * `TextfieldProduction` Dieses Control kann (anstelle von TextField) als _**BusinessControl**_ verwendet werden.
 * `Liniendiagramm` Darstellung der Produktionen 2015 - 2018 in einem Liniendiagramm.
@@ -14,6 +13,7 @@
 * `Shift+Ctrl+Alt` Hält man _Shift_ gedrückt werden 10er, mit _Shit+Ctrl_ 100er und mit _Shift+Ctrl+Alt_ 1000er Schritte gemacht.
 * `Ansicht wechseln` Mit einem Klick auf das Icon oben rechts, wird die Ansicht zwischen _Kreisen_ und _Windrädern_ gewechselt.
 
+
 ## HowTo: Integration CustomControl `ProductionChart`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
 * `Imports anpassen` Search&Replace: "to.be.defined" ersetzen durch Pfad im Zielprojekt. (Z.B. cuie.githubname.windpark)
@@ -21,6 +21,7 @@
 * `cc = new ProductionChart();` Variable initialisieren
 * `getChildren().add(cc);` ProductionChart einer View hinzufügen
 * `cc.bind(pm.p15Prop(), pm.p16Prop(), pm.p17Prop(), pm.p18Prop());` Binding der Werte
+
 
 ## HowTo: Integration BusinessControl `TextfieldProduction`
 * `Daten kopieren` Ordner _productionChart_ an gewünschten Ort im Zielprojekt kopieren. (Inhalt von _ProductionChart.zip_)
