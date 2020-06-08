@@ -4,6 +4,8 @@
 * Mail / Webex: **markus.winter@students.fhnw.ch**
 * Teams Code: **ueziu96**
 * Slack: **braini**
+* Video: [Postersession](https://vimeo.com/427039094/bee71029cb)
+
 
 #### Features
 * `ProductionChart` Dieses Control kann als _**CustomControl**_ verwendet werden.
